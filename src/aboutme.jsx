@@ -30,7 +30,7 @@ export function AboutMe() {
         return () => window.removeEventListener('resize', handleResize);
     }, [viewPortSize.height]);
     return (
-        <div className="aboutme w-full bg-yellow-300 absolute z-10" style={{ height: viewPortSize.height }}>
+        <div className="aboutme w-full bg-red absolute z-10" style={{ height: viewPortSize.height }}>
             <h1>About Me</h1>
         </div>
     );
