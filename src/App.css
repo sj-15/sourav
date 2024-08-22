@@ -1,0 +1,44 @@
+
+.parent {
+  overflow-y: scroll;
+  /* Allow vertical scrolling */
+  scrollbar-width: none;
+  /* For Firefox */
+}
+
+
+.parent::-webkit-scrollbar {
+  display: none;
+  /* For Chrome, Safari, and Opera */
+}
+.navbar li {
+  color: black;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.navbar li:hover {
+  color: #FBC05B;
+  font-weight: 500;
+}
+
+
+.home h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.home h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.home p {
+  color: rgb(164, 164, 164);
+  text-wrap: wrap;
+}
+.figmaDp {
+  height: 580px;
+  margin-top: 30px;
+}
