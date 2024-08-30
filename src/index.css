@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+  
 body{
     background-color: #F6EFE5;
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
 }
